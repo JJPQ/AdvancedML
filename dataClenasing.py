@@ -28,3 +28,4 @@ train_dataset = TensorDataset(features[:7000], label[:7000])
 valid_dataset = TensorDataset(features[7000:], label[7000:])
 train_iter = DataLoader(train_dataset, batch_size=64, shuffle=True)
 valid_iter = DataLoader(valid_dataset, batch_size=64, shuffle=True)
+# skdkasldlasdas
